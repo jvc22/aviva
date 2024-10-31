@@ -10,7 +10,7 @@ export default function LandingPage() {
 
       <Header />
 
-      <div className="z-10 pt-16">
+      <div id="start" className="z-10 pt-16">
         <div className="flex flex-col items-center gap-8">
           <div className="space-y-3 text-center">
             <h1 className="bg-radial-gradient from-zinc-300 to-zinc-500 bg-clip-text text-6xl font-bold leading-[64px] tracking-tighter text-transparent">
