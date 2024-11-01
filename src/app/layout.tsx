@@ -3,6 +3,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 
+import { Providers } from './providers'
+
 export const metadata: Metadata = {
   title: 'Aviva | Faça parte',
   description: 'Uma comunidade para o crescimento em Deus',
@@ -29,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} overscroll-none font-geist antialiased`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
