@@ -10,6 +10,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(var(--tw-gradient-stops))',
+        'landing-bg': "url('/assets/landing-page/bg.svg')",
+      },
       fontFamily: {
         geist: ['var(--font-geist-sans)'],
         'geist-mono': ['var(--font-geist-mono)'],
