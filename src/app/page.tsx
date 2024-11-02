@@ -1,14 +1,14 @@
 import { ArrowRight } from 'lucide-react'
 
-import { FirstCard } from '@/components/landing-page/first-card'
+import { FirstCard } from '@/components/landing-page/cards/first-card'
+import { SecondCard } from '@/components/landing-page/cards/second-card'
+import { ThirdCard } from '@/components/landing-page/cards/third-card'
 import { Header } from '@/components/landing-page/header'
-import { SecondCard } from '@/components/landing-page/second-card'
-import { ThirdCard } from '@/components/landing-page/third-card'
 import { Button } from '@/components/ui/button'
 
 export default function LandingPage() {
   return (
-    <div className="relative flex min-h-screen flex-col bg-background text-zinc-100">
+    <div className="relative flex min-h-screen flex-col bg-background">
       <div className="pointer-events-none absolute -top-14 bottom-0 left-0 right-0 z-0 transform bg-landing-bg bg-top bg-no-repeat invert dark:filter-none lg:bg-contain" />
 
       <Header />

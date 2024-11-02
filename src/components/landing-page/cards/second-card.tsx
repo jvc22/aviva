@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import crossImg from '../../../public/assets/landing-page/cross.svg'
+import crossImg from '../../../../public/assets/landing-page/cross.svg'
 
 export function SecondCard() {
   return (
