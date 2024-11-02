@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 export default function LandingPage() {
   return (
     <div className="relative flex min-h-screen flex-col bg-background text-zinc-100">
-      <div className="pointer-events-none absolute -top-6 bottom-0 left-0 right-0 z-0 transform bg-landing-bg bg-top bg-no-repeat lg:bg-contain" />
+      <div className="pointer-events-none absolute -top-14 bottom-0 left-0 right-0 z-0 transform bg-landing-bg bg-top bg-no-repeat invert dark:filter-none lg:bg-contain" />
 
       <Header />
 
