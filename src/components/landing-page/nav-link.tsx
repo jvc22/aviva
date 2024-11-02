@@ -22,7 +22,7 @@ export default function NavLink(props: NavLinkProps) {
       {...props}
       data-current={isActive}
       className={cn(
-        'flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-all ease-out hover:text-zinc-200 data-[current=true]:text-zinc-200',
+        'flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-all ease-out hover:text-foreground data-[current=true]:text-foreground',
         props.disabled && 'pointer-events-none opacity-50',
       )}
     >
